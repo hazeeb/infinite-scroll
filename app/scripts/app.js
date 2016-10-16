@@ -12,14 +12,14 @@ angular
   .module('infiniteApp', [
     'ngAnimate',
     'ngResource',
-    'ngRoute'
+    'ngRoute',
+    'ngMaterial' 
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        controller: 'MainCtrl' 
       })
       .when('/about', {
         templateUrl: 'views/about.html',
