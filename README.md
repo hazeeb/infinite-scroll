@@ -1,6 +1,6 @@
 # Infinite scroll
 
-Fetches data from an array and gives you never ending scrolling experience. 
+This is a simple angular application,that fetches data from an array and gives you never ending scrolling experience. 
 This website use [Angular Material Design](https://github.com/angular/material) for its layout and components.
 Array consists 12 images, which are repeating random while you scroll down.
 
