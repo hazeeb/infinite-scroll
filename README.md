@@ -1,7 +1,16 @@
-# infinite
+# Infinite scroll
+
+Fetches data from an array and gives you never ending scrolling experience. 
+This website use ]Angular Material Design](https://github.com/angular/material) for its layout and components.
+Array consists 12 images, which are repeating random while you scroll down.
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
+Yeoman helps to kickstart new projects, prescribing best practices and tools to help you stay productive.
+
+
+[ngInfiniteScroll](https://sroze.github.io/ngInfiniteScroll/) is a directive that you can use to implement infinite scrolling in your AngularJS applications.
+
 
 ## Build & development
 
