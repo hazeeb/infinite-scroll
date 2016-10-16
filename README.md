@@ -11,6 +11,9 @@ Yeoman helps to kickstart new projects, prescribing best practices and tools to 
 
 [ngInfiniteScroll](https://sroze.github.io/ngInfiniteScroll/) is a directive that you can use to implement infinite scrolling in your AngularJS applications.
 
+## Demo
+  
+  You can see the demo [here](http://gceinvenio.com/infinite-scroll/#/) 
 
 ## Build & development
 
