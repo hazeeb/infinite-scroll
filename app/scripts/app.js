@@ -13,19 +13,15 @@ angular
     'ngAnimate',
     'ngResource',
     'ngRoute',
-    'ngMaterial' 
+    'ngMaterial',
+    'infinite-scroll'
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl' 
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
+      }) 
       .otherwise({
         redirectTo: '/'
       });
