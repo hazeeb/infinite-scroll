@@ -9,10 +9,11 @@
  */
 angular.module('infiniteApp')
   .controller('MainCtrl', function ($scope) {
+  
  
 	$scope.data = [1,2,3,4];
 
-  	$scope.loadImages = function() {
+  	$scope.load = function() {
 	    var last = $scope.data[$scope.data.length - 1];
 	    for(var i = 1; i <= 4; i++) {
 	      $scope.data.push(last + i);

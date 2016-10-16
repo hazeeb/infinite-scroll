@@ -2,13 +2,14 @@
   <div class="scroll-header-section">
     <h1 class="md-display-4 scroll-header">Infinite Scrolling</h1> 
     <p class="md-headline"> Scroll down to see the magic of never ending image grid.</p>
-  </div> 
-    <div infinite-scroll='loadImages()' class='md-padding' layout="row" layout-wrap>
-      <md-card class="repeated-item" ng-repeat="item in data" style="width: 350px;">
-        <img src="images/thumbnail.png" class="md-card-image" alt="user avatar">
+  </div>
+
+  <div layout="row" layout-align="center" infinite-scroll='load()' class='md-padding' layout="row" layout-wrap>
+    <md-card class="repeated-item" ng-repeat="item in data" style="width: 300px;">
+      <img src="images/thumbnail.png" class="md-card-image" alt="user avatar">
         <md-card-content> 
           <p>Description ,eum ad dolores intellegebat, hinc nulla veritus duo ex. Quo at sale adipisci repudiandae. Ubique intellegebat ea eum, vim enim soleat oportere cu. </p>
-        </md-card-content> 
-      </md-card>
-    </div>  
+      </md-card-content> 
+    </md-card>
+  </div>   
 </section>
