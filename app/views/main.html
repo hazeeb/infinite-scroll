@@ -6,8 +6,9 @@
 
   <div layout="row" layout-align="center" infinite-scroll='load()' class='md-padding' layout="row" layout-wrap>
     <md-card class="repeated-item" ng-repeat="item in data" style="width: 300px;">
-      <img src="images/thumbnail.png" class="md-card-image" alt="user avatar">
+      <img src="images/{{item.img}}.png" style="height: 200px;" class="md-card-image">
         <md-card-content> 
+        <h3>{{item.no}}</h3>
           <p>Description ,eum ad dolores intellegebat, hinc nulla veritus duo ex. Quo at sale adipisci repudiandae. Ubique intellegebat ea eum, vim enim soleat oportere cu. </p>
       </md-card-content> 
     </md-card>
