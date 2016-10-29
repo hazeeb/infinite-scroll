@@ -13,7 +13,7 @@ Yeoman helps to kickstart new projects, prescribing best practices and tools to 
 
 ## Demo
   
-  You can see the demo [here](http://gceinvenio.com/infinite-scroll/#/) 
+  You can see the demo [here](http://hazeeb.me/lab/infinite-scroll/) 
 
 ## Build & development
 
